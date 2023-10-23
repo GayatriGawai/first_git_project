@@ -1,2 +1,3 @@
 Hi Gayatri it is our first project for git.
 This is changed in the file for the first time.
+Aborting commit due to empty commit message.
