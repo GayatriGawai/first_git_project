@@ -1,0 +1,10 @@
+h1 {
+    margin: auto;
+    display: inline;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#p1 {
+    display: none;
+}

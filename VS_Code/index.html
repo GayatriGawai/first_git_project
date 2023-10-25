@@ -3,29 +3,12 @@
     <head>
         <meta charset="UTF-8" />
         <title>My Simple Webpage</title>
-        <style>
-            h1 {
-                margin: auto;
-                display: inline;
-                color: blueviolet;
-                font-family: 'Times New Roman', Times, serif;
-            }
-            #p1 {
-                display: none;
-            }
-        </style>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script>
-            $(document).ready(function () {
-                $('#b1').click(function () {
-                    $('#p1').css('display', 'block');
-                });
-            });
-        </script>
+
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="script.js"></script>
     </head>
     <body>
-        <h1>Welcome to My Simple Webpage</h1>
-        <p>This is a basic HTML webpage.</p>
         <ul>
             <li>Item 1</li>
             <li>Item 2</li>
@@ -38,17 +21,17 @@
             adipisci fuga.
         </p>
         <button id="b1">Text</button>
-        <p>
+        <p style="color: rgb(255, 4, 196)">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
             sapiente hic error minima, quasi id quo similique voluptate delectus
             totam temporibus officia alias quia at ipsa atque ad quas odit.
         </p>
-        <p>
+        <p style="color: rgb(235, 35, 35)">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
             sapiente hic error minima, quasi id quo similique voluptate delectus
             totam temporibus officia alias quia at ipsa atque ad quas odit.
         </p>
-        <p>
+        <p style="color: rgb(4, 255, 247)">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
             sapiente hic error minima, quasi id quo similique voluptate delectus
             totam temporibus officia alias quia at ipsa atque ad quas odit.
