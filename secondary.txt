@@ -1,1 +1,1 @@
-This is the second file that we created.
+This is the second file.
